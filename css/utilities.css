@@ -1,0 +1,169 @@
+/* Text Style*/
+
+.text-primary {
+  color: #28a745;
+}
+.text-secondary {
+  color: #0284d0;
+}
+
+/*backgrounds*/
+
+/*button*/
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 30px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  background-color: #0e7426;
+}
+
+.btn-primary,
+.bg-primary {
+  background-color: #28a745;
+  color: White;
+}
+
+.bg-secondary {
+  background-color: #0284d0;
+  color: White;
+}
+.btn-secondary {
+  background-color: #0284d0;
+  color: White;
+}
+
+.btn-dark {
+  background: #333;
+  color: White;
+}
+
+.btn-light {
+  background-color: white;
+  color: #333;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid white;
+}
+
+/*backgrounds*/
+
+.bg-light {
+  background-color: whitesmoke;
+  color: #333;
+}
+
+.bg-dark {
+  background-color: #333;
+  color: white;
+}
+
+/* Flex items */
+.flex-items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.flex-items > div {
+  padding: 20px;
+}
+
+/*flex columns*/
+
+.flex-columns .flex-reverse {
+  flex-direction: row-reverse;
+}
+.flex-columns .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.flex-columns .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+  height: 100%;
+}
+
+.flex-columns img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.flex-columns .column-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.flex-columns h2 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.flex-columns h4 {
+  margin-bottom: 10px;
+}
+
+.flex-columns p {
+  margin: 20px 0;
+}
+
+/*section*/
+
+.section-header {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.section-padding {
+  padding: 20px 20px 40px;
+}
+
+/*flex grid*/
+
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 4px;
+}
+
+.flex-grid .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+/*Media*/
